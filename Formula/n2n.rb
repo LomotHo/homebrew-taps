@@ -3,6 +3,7 @@ class N2n < Formula
   homepage ""
   url "https://github.com/ntop/n2n/archive/2.6.tar.gz"
   sha256 "d08a75cba32394e7077d8b3afdef913d61cdf5911141effb5cd3ee2d79c66bc2"
+  depends_on "automake"
 
   def install
     system "./autogen.sh"
