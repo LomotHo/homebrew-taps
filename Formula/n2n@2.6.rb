@@ -1,8 +1,8 @@
 class N2n < Formula
-  desc "n2n v2.8 for macOS"
+  desc "n2n v2.6 for macOS"
   homepage ""
-  url "https://github.com/ntop/n2n/archive/2.8.tar.gz"
-  sha256 "ad9ab95a79dcf6b412c36489f50de54bb54417b5cea854eb54722b6cb8f0fd04"
+  url "https://github.com/ntop/n2n/archive/2.6.tar.gz"
+  sha256 "d08a75cba32394e7077d8b3afdef913d61cdf5911141effb5cd3ee2d79c66bc2"
   depends_on "automake"
 
   def install
