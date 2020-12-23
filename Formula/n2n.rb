@@ -4,10 +4,10 @@ class N2n < Formula
   url "https://github.com/ntop/n2n/archive/2.8.tar.gz"
   sha256 "ad9ab95a79dcf6b412c36489f50de54bb54417b5cea854eb54722b6cb8f0fd04"
   depends_on "automake"
+  depends_on "cmake"
 
   def install
-    system "./autogen.sh"
-    system "./configure"
+    system "cmake ."
     system "make"
     bin.install "edge"
     bin.install "supernode"
