@@ -1,4 +1,4 @@
-class N2n < Formula
+class N2nAT30 < Formula
   desc "n2n v3.0 for macOS"
   homepage ""
   url "https://github.com/ntop/n2n/archive/3.0.tar.gz"
