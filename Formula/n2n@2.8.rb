@@ -10,6 +10,9 @@ class N2nAT28 < Formula
     system "make"
     bin.install "edge"
     bin.install "supernode"
+    (etc/"n2n").mkpath
+    etc.install "packages/etc/n2n/edge.conf.sample" => "n2n/edge.conf"
+    etc.install "packages/etc/n2n/supernode.conf.sample" => "n2n/supernode.conf"
   end
 
   test do
